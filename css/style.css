@@ -1,0 +1,73 @@
+body {
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+
+
+header {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url(../images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    min-width: 100%;
+    margin-top: 80px;
+    padding-bottom: 80px;
+}
+
+.navbar {
+    background-color: #022244;
+    opacity: 0.9;
+    z-index: 999999;
+}
+
+.logo {
+    width: 100px;
+    float: inline-start
+}
+
+section {
+    background-color: rgb(212, 212, 212);
+}
+
+
+footer {
+    background-color: rgb(44, 43, 43);
+    color: white;
+    padding: 40px 0 20px 0;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footerNav,
+.socialNav {
+    list-style: none;
+    display: flex;
+}
+
+.footerNav li,
+.socialNav li {
+    margin-left: 20px;
+
+}
+
+.footerNav li a,
+.socialNav li a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3;
+}
+
+.footerNav li a:hover,
+.socialNav li a:hover {
+    color: #004c9c;
+}
+
+.socialNav {
+    justify-content: flex-end;
+}
